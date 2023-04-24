@@ -1,6 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.form-outline {
+  border: none;
+  border-bottom: solid 1px black;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
 /* 
 :root {
   --foreground-rgb: 0, 0, 0;
